@@ -61,7 +61,7 @@ for b in benchmarks.keys():
 
 
 # The shapes of the Ndarrays.
-dims = [[20], [20, 20], [20, 20, 20]]  # TODO: change here the dimensions
+dims = [[100], [33, 33], [100, 100], [330, 330], [100, 100, 100], [200, 200, 300]]  # TODO: change here the dimensions
 x_labels = ['10^{:.1f}'.format(np.log10(np.prod(np.array(dim)))) for dim in dims]
 
 # The colours and shapes for the data

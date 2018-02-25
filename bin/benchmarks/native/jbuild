@@ -5,16 +5,26 @@
     test
     map_eval
     scan_eval
+    scan_low_eval
+    scan_high_eval
     fold_eval
+    fold_low_eval
+    fold_high_eval
     slicing_eval
+    slicing_left_eval
     indexing_eval
   ))
   (public_names (
     native_test
     native_map_eval
     native_scan_eval
+    native_scan_low_eval
+    native_scan_high_eval
     native_fold_eval
+    native_fold_low_eval
+    native_fold_high_eval
     native_slicing_eval
+    native_slicing_left_eval
     native_indexing_eval
   ))
   (package     owl_benchmarks)

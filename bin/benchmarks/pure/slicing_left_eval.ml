@@ -1,0 +1,1 @@
+include Slicing_left_generic.Make(Owl_base_dense_ndarray.S)

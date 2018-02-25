@@ -5,16 +5,26 @@
     test
     map_eval
     scan_eval
+    scan_low_eval
+    scan_high_eval
     fold_eval
+    fold_low_eval
+    fold_high_eval
     slicing_eval
+    slicing_left_eval
     indexing_eval
   ))
   (public_names (
     pure_test
     pure_map_eval
     pure_scan_eval
+    pure_scan_low_eval
+    pure_scan_high_eval
     pure_fold_eval
+    pure_fold_low_eval
+    pure_fold_high_eval
     pure_slicing_eval
+    pure_slicing_left_eval
     pure_indexing_eval
   ))
   (package     owl_benchmarks)
@@ -22,7 +32,7 @@
     benchmarks_common
   ))
   (flags (:standard -safe-string))
-  (modes      (byte))
+  (modes      (byte native))
   (js_of_ocaml ((flags --pretty)))
 ))
 
@@ -32,8 +42,13 @@
   test.bc.js
   map_eval.bc.js
   scan_eval.bc.js
+  scan_low_eval.bc.js
+  scan_high_eval.bc.js
   fold_eval.bc.js
+  fold_low_eval.bc.js
+  fold_high_eval.bc.js
   slicing_eval.bc.js
+  slicing_left_eval.bc.js
   indexing_eval.bc.js
   )
 )))

@@ -13,6 +13,9 @@
     slicing_eval
     slicing_left_eval
     indexing_eval
+    conv2d_eval
+    avg_pool2d_eval
+    max_pool2d_eval
   ))
   (public_names (
     native_test
@@ -26,6 +29,9 @@
     native_slicing_eval
     native_slicing_left_eval
     native_indexing_eval
+    native_conv2d_eval
+    native_avg_pool2d_eval
+    native_max_pool2d_eval
   ))
   (package     owl_benchmarks)
   (libraries  (
